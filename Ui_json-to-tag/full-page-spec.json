@@ -1,0 +1,717 @@
+{
+  "tagName": "html",
+  "attributes": {
+    "lang": "en",
+    "data-bs-theme": "light"
+  },
+  "children": [
+    {
+      "tagName": "div",
+      "attributes": {
+        "style": "all: initial !important; z-index: 2147483647 !important; width: auto !important; position: fixed !important; bottom: 16px !important; left: 16px !important;"
+      },
+      "children": [
+        {
+          "tagName": "style",
+          "attributes": {
+            "type": "text/css"
+          },
+          "textContent": "@font-face {\n  font-family: 'Futura';\n  src: url(\"chrome-extension://imjnhcoogkbmemieaehgnopdleejnmll/fonts/woff2/futura-medium.woff2\") format('woff2'), url(\"chrome-extension://imjnhcoogkbmemieaehgnopdleejnmll/fonts/ttf/futura-medium.ttf\") format('truetype');\n  font-weight: 500;\n  font-style: normal;\n}"
+        }
+      ]
+    },
+    {
+      "tagName": "head",
+      "children": [
+        {
+          "tagName": "title",
+          "textContent": "Responsive Bootstrap Navigation"
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "charset": "utf-8"
+          }
+        },
+        {
+          "tagName": "meta",
+          "attributes": {
+            "name": "viewport",
+            "content": "width=device-width, initial-scale=1"
+          }
+        },
+        {
+          "tagName": "link",
+          "attributes": {
+            "rel": "stylesheet",
+            "href": "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+          }
+        },
+        {
+          "tagName": "link",
+          "attributes": {
+            "href": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css",
+            "rel": "stylesheet",
+            "integrity": "sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB",
+            "crossorigin": "anonymous"
+          }
+        }
+      ]
+    },
+    {
+      "tagName": "body",
+      "children": [
+        {
+          "tagName": "div",
+          "attributes": {
+            "class": "container"
+          },
+          "children": [
+            {
+              "tagName": "header",
+              "children": [
+                {
+                  "tagName": "div",
+                  "attributes": {
+                    "class": "px-3 py-2 text-bg-dark border-bottom"
+                  },
+                  "children": [
+                    {
+                      "tagName": "div",
+                      "attributes": {
+                        "class": "container"
+                      },
+                      "children": [
+                        {
+                          "tagName": "nav",
+                          "attributes": {
+                            "class": "navbar navbar-expand-lg navbar-dark p-0"
+                          },
+                          "children": [
+                            {
+                              "tagName": "div",
+                              "attributes": {
+                                "class": "container-fluid p-0 d-flex flex-wrap align-items-center justify-content-between justify-content-lg-start"
+                              },
+                              "children": [
+                                {
+                                  "tagName": "a",
+                                  "attributes": {
+                                    "href": "/",
+                                    "class": "d-flex align-items-center my-2 my-lg-0 me-auto me-lg-auto text-white text-decoration-none"
+                                  },
+                                  "children": [
+                                    {
+                                      "tagName": "i",
+                                      "attributes": {
+                                        "class": "bi bi-bootstrap-fill fs-2"
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tagName": "button",
+                                  "attributes": {
+                                    "class": "navbar-toggler",
+                                    "type": "button",
+                                    "data-bs-toggle": "collapse",
+                                    "data-bs-target": "#mainNavigation",
+                                    "aria-controls": "mainNavigation",
+                                    "aria-expanded": "false",
+                                    "aria-label": "Toggle navigation"
+                                  },
+                                  "children": [
+                                    {
+                                      "tagName": "span",
+                                      "attributes": {
+                                        "class": "navbar-toggler-icon"
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tagName": "div",
+                                  "attributes": {
+                                    "class": "collapse navbar-collapse justify-content-lg-end",
+                                    "id": "mainNavigation"
+                                  },
+                                  "children": [
+                                    {
+                                      "tagName": "ul",
+                                      "attributes": {
+                                        "class": "nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small"
+                                      },
+                                      "children": [
+                                        {
+                                          "tagName": "li",
+                                          "children": [
+                                            {
+                                              "tagName": "a",
+                                              "attributes": {
+                                                "href": "#",
+                                                "class": "nav-link text-white text-center"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tagName": "i",
+                                                  "attributes": {
+                                                    "class": "bi bi-house-door-fill d-block mx-auto mb-1 fs-5"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tagName": "li",
+                                          "children": [
+                                            {
+                                              "tagName": "a",
+                                              "attributes": {
+                                                "href": "#",
+                                                "class": "nav-link text-white text-center"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tagName": "i",
+                                                  "attributes": {
+                                                    "class": "bi bi-speedometer2 d-block mx-auto mb-1 fs-5"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tagName": "li",
+                                          "children": [
+                                            {
+                                              "tagName": "a",
+                                              "attributes": {
+                                                "href": "#",
+                                                "class": "nav-link text-white text-center"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tagName": "i",
+                                                  "attributes": {
+                                                    "class": "bi bi-table d-block mx-auto mb-1 fs-5"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tagName": "li",
+                                          "children": [
+                                            {
+                                              "tagName": "a",
+                                              "attributes": {
+                                                "href": "#",
+                                                "class": "nav-link text-white text-center"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tagName": "i",
+                                                  "attributes": {
+                                                    "class": "bi bi-grid-fill d-block mx-auto mb-1 fs-5"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tagName": "li",
+                                          "children": [
+                                            {
+                                              "tagName": "a",
+                                              "attributes": {
+                                                "href": "#",
+                                                "class": "nav-link text-white text-center"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tagName": "i",
+                                                  "attributes": {
+                                                    "class": "bi bi-people-fill d-block mx-auto mb-1 fs-5"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tagName": "main"
+            },
+            {
+              "tagName": "footer",
+              "attributes": {
+                "class": "py-5"
+              },
+              "children": [
+                {
+                  "tagName": "div",
+                  "attributes": {
+                    "class": "row"
+                  },
+                  "children": [
+                    {
+                      "tagName": "div",
+                      "attributes": {
+                        "class": "col-6 col-md-2 mb-3"
+                      },
+                      "children": [
+                        {
+                          "tagName": "h5",
+                          "textContent": "Section"
+                        },
+                        {
+                          "tagName": "ul",
+                          "attributes": {
+                            "class": "nav flex-column"
+                          },
+                          "children": [
+                            {
+                              "tagName": "li",
+                              "attributes": {
+                                "class": "nav-item mb-2"
+                              },
+                              "children": [
+                                {
+                                  "tagName": "a",
+                                  "attributes": {
+                                    "href": "#",
+                                    "class": "nav-link p-0 text-body-secondary"
+                                  },
+                                  "textContent": "Home"
+                                }
+                              ]
+                            },
+                            {
+                              "tagName": "li",
+                              "attributes": {
+                                "class": "nav-item mb-2"
+                              },
+                              "children": [
+                                {
+                                  "tagName": "a",
+                                  "attributes": {
+                                    "href": "#",
+                                    "class": "nav-link p-0 text-body-secondary"
+                                  },
+                                  "textContent": "Features"
+                                }
+                              ]
+                            },
+                            {
+                              "tagName": "li",
+                              "attributes": {
+                                "class": "nav-item mb-2"
+                              },
+                              "children": [
+                                {
+                                  "tagName": "a",
+                                  "attributes": {
+                                    "href": "#",
+                                    "class": "nav-link p-0 text-body-secondary"
+                                  },
+                                  "textContent": "Pricing"
+                                }
+                              ]
+                            },
+                            {
+                              "tagName": "li",
+                              "attributes": {
+                                "class": "nav-item mb-2"
+                              },
+                              "children": [
+                                {
+                                  "tagName": "a",
+                                  "attributes": {
+                                    "href": "#",
+                                    "class": "nav-link p-0 text-body-secondary"
+                                  },
+                                  "textContent": "FAQs"
+                                }
+                              ]
+                            },
+                            {
+                              "tagName": "li",
+                              "attributes": {
+                                "class": "nav-item mb-2"
+                              },
+                              "children": [
+                                {
+                                  "tagName": "a",
+                                  "attributes": {
+                                    "href": "#",
+                                    "class": "nav-link p-0 text-body-secondary"
+                                  },
+                                  "textContent": "About"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tagName": "div",
+                      "attributes": {
+                        "class": "col-6 col-md-2 mb-3"
+                      },
+                      "children": [
+                        {
+                          "tagName": "h5",
+                          "textContent": "Section"
+                        },
+                        {
+                          "tagName": "ul",
+                          "attributes": {
+                            "class": "nav flex-column"
+                          },
+                          "children": [
+                            {
+                              "tagName": "li",
+                              "attributes": {
+                                "class": "nav-item mb-2"
+                              },
+                              "children": [
+                                {
+                                  "tagName": "a",
+                                  "attributes": {
+                                    "href": "#",
+                                    "class": "nav-link p-0 text-body-secondary"
+                                  },
+                                  "textContent": "Home"
+                                }
+                              ]
+                            },
+                            {
+                              "tagName": "li",
+                              "attributes": {
+                                "class": "nav-item mb-2"
+                              },
+                              "children": [
+                                {
+                                  "tagName": "a",
+                                  "attributes": {
+                                    "href": "#",
+                                    "class": "nav-link p-0 text-body-secondary"
+                                  },
+                                  "textContent": "Features"
+                                }
+                              ]
+                            },
+                            {
+                              "tagName": "li",
+                              "attributes": {
+                                "class": "nav-item mb-2"
+                              },
+                              "children": [
+                                {
+                                  "tagName": "a",
+                                  "attributes": {
+                                    "href": "#",
+                                    "class": "nav-link p-0 text-body-secondary"
+                                  },
+                                  "textContent": "Pricing"
+                                }
+                              ]
+                            },
+                            {
+                              "tagName": "li",
+                              "attributes": {
+                                "class": "nav-item mb-2"
+                              },
+                              "children": [
+                                {
+                                  "tagName": "a",
+                                  "attributes": {
+                                    "href": "#",
+                                    "class": "nav-link p-0 text-body-secondary"
+                                  },
+                                  "textContent": "FAQs"
+                                }
+                              ]
+                            },
+                            {
+                              "tagName": "li",
+                              "attributes": {
+                                "class": "nav-item mb-2"
+                              },
+                              "children": [
+                                {
+                                  "tagName": "a",
+                                  "attributes": {
+                                    "href": "#",
+                                    "class": "nav-link p-0 text-body-secondary"
+                                  },
+                                  "textContent": "About"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tagName": "div",
+                      "attributes": {
+                        "class": "col-6 col-md-2 mb-3"
+                      },
+                      "children": [
+                        {
+                          "tagName": "h5",
+                          "textContent": "Section"
+                        },
+                        {
+                          "tagName": "ul",
+                          "attributes": {
+                            "class": "nav flex-column"
+                          },
+                          "children": [
+                            {
+                              "tagName": "li",
+                              "attributes": {
+                                "class": "nav-item mb-2"
+                              },
+                              "children": [
+                                {
+                                  "tagName": "a",
+                                  "attributes": {
+                                    "href": "#",
+                                    "class": "nav-link p-0 text-body-secondary"
+                                  },
+                                  "textContent": "Home"
+                                }
+                              ]
+                            },
+                            {
+                              "tagName": "li",
+                              "attributes": {
+                                "class": "nav-item mb-2"
+                              },
+                              "children": [
+                                {
+                                  "tagName": "a",
+                                  "attributes": {
+                                    "href": "#",
+                                    "class": "nav-link p-0 text-body-secondary"
+                                  },
+                                  "textContent": "Features"
+                                }
+                              ]
+                            },
+                            {
+                              "tagName": "li",
+                              "attributes": {
+                                "class": "nav-item mb-2"
+                              },
+                              "children": [
+                                {
+                                  "tagName": "a",
+                                  "attributes": {
+                                    "href": "#",
+                                    "class": "nav-link p-0 text-body-secondary"
+                                  },
+                                  "textContent": "Pricing"
+                                }
+                              ]
+                            },
+                            {
+                              "tagName": "li",
+                              "attributes": {
+                                "class": "nav-item mb-2"
+                              },
+                              "children": [
+                                {
+                                  "tagName": "a",
+                                  "attributes": {
+                                    "href": "#",
+                                    "class": "nav-link p-0 text-body-secondary"
+                                  },
+                                  "textContent": "FAQs"
+                                }
+                              ]
+                            },
+                            {
+                              "tagName": "li",
+                              "attributes": {
+                                "class": "nav-item mb-2"
+                              },
+                              "children": [
+                                {
+                                  "tagName": "a",
+                                  "attributes": {
+                                    "href": "#",
+                                    "class": "nav-link p-0 text-body-secondary"
+                                  },
+                                  "textContent": "About"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tagName": "div",
+                      "attributes": {
+                        "class": "col-md-5 offset-md-1 mb-3"
+                      },
+                      "children": [
+                        {
+                          "tagName": "form",
+                          "children": [
+                            {
+                              "tagName": "h5",
+                              "textContent": "Subscribe to our newsletter"
+                            },
+                            {
+                              "tagName": "p",
+                              "textContent": "Monthly digest of what's new and exciting from us."
+                            },
+                            {
+                              "tagName": "div",
+                              "attributes": {
+                                "class": "d-flex flex-column flex-sm-row w-100 gap-2"
+                              },
+                              "children": [
+                                {
+                                  "tagName": "label",
+                                  "attributes": {
+                                    "for": "newsletter1",
+                                    "class": "visually-hidden"
+                                  },
+                                  "textContent": "Email address"
+                                },
+                                {
+                                  "tagName": "input",
+                                  "attributes": {
+                                    "id": "newsletter1",
+                                    "type": "email",
+                                    "class": "form-control",
+                                    "placeholder": "Email address"
+                                  }
+                                },
+                                {
+                                  "tagName": "button",
+                                  "attributes": {
+                                    "class": "btn btn-primary",
+                                    "type": "button"
+                                  },
+                                  "textContent": "Subscribe"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tagName": "div",
+                  "attributes": {
+                    "class": "d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"
+                  },
+                  "children": [
+                    {
+                      "tagName": "p",
+                      "textContent": "© 2025 Company, Inc. All rights reserved."
+                    },
+                    {
+                      "tagName": "ul",
+                      "attributes": {
+                        "class": "list-unstyled d-flex"
+                      },
+                      "children": [
+                        {
+                          "tagName": "li",
+                          "attributes": {
+                            "class": "ms-3"
+                          },
+                          "children": [
+                            {
+                              "tagName": "a",
+                              "attributes": {
+                                "class": "link-body-emphasis",
+                                "href": "#",
+                                "aria-label": "Instagram"
+                              },
+                              "children": [
+                                {
+                                  "tagName": "i",
+                                  "attributes": {
+                                    "class": "bi bi-instagram fs-4"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tagName": "li",
+                          "attributes": {
+                            "class": "ms-3"
+                          },
+                          "children": [
+                            {
+                              "tagName": "a",
+                              "attributes": {
+                                "class": "link-body-emphasis",
+                                "href": "#",
+                                "aria-label": "Facebook"
+                              },
+                              "children": [
+                                {
+                                  "tagName": "i",
+                                  "attributes": {
+                                    "class": "bi bi-facebook fs-4"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tagName": "script",
+          "attributes": {
+            "src": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js",
+            "integrity": "sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI",
+            "crossorigin": "anonymous"
+          }
+        },
+        {
+          "tagName": "script",
+          "textContent": "document.addEventListener(\"DOMContentLoaded\", function () {\n            const toggler = document.querySelector('.navbar-toggler');\n            const navCollapse = document.querySelector('#mainNavigation');\n            if (toggler && navCollapse) {\n                toggler.addEventListener('click', function () {\n                    if (typeof bootstrap === 'undefined' || !bootstrap.Collapse) {\n                        navCollapse.classList.toggle('show');\n                    }\n                });\n            }\n        });"
+        }
+      ]
+    }
+  ]
+}

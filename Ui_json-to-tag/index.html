@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Bootstrap Navigation • @keshavsoft/json-to-tag</title>
+
+    <!-- Bootstrap 5.3 CSS & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+
+    <!-- Browser Import Map for Live Server & Vanilla Browsers -->
+    <script type="importmap">
+    {
+      "imports": {
+        "@keshavsoft/json-to-tag": "https://keshavsoft.github.io/json-to-tag/dist/v4/min.js"
+      }
+    }
+    </script>
+
+    <!-- @keshavsoft/json-to-tag CDN Engine (v4 fallback) -->
+    <script src="https://keshavsoft.github.io/json-to-tag/dist/v4/min.js"></script>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div id="root">
+        <div class="d-flex justify-content-center align-items-center vh-100 text-muted" id="loading-spinner">
+            <div class="spinner-border text-primary me-2" role="status"></div>
+            <span>Building from full-page-spec.json...</span>
+        </div>
+    </div>
+
+    <!-- Application Script -->
+    <script type="module" src="./index.js"></script>
+</body>
+
+</html>
